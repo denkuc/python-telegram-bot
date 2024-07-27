@@ -97,4 +97,4 @@ venv*
 .mise.toml
 
 # Tokens
-tokens.py
+./tokens.py
