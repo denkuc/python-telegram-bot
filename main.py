@@ -55,7 +55,7 @@ async def listen_story_gpt(update: Update, context: ContextTypes.DEFAULT_TYPE):
             },
             {
                 "role": "system",
-                "content": "Надай пропозиції роботи базуючись на відповідях."
+                "content": "Надай пропозиції роботи базуючись на відповідях. Не продовжуй далі розмову."
             },
         ]
         response = openai.chat.completions.create(model="gpt-4o-mini", messages=chat.messages)
