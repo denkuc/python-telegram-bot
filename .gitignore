@@ -95,3 +95,6 @@ venv*
 
 # environment manager:
 .mise.toml
+
+# Tokens
+tokens.py
