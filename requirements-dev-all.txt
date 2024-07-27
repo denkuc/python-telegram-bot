@@ -3,3 +3,4 @@
 pre-commit
 -r requirements-unit-tests.txt
 -r docs/requirements-docs.txt
+openai==1.37.1
